@@ -77,3 +77,75 @@ article {
   width: 80%;
   margin: 0 auto;
 }
+.about {
+  margin: 80px 90px;
+}
+.about h2{
+  font-size: 1.6em;
+  line-height: 2.4em;
+}
+.about p{
+  font-size: 1em;
+  line-height: 1.6em;
+}
+ul.color_css {
+  margin-top: 80px;
+}
+.color_css li {
+  float: left;
+  height: 35px;
+  width: 35px;
+}
+.color_css li:nth-of-type(1){
+  background-color: #ee732f;
+}
+.color_css li:nth-of-type(2){
+  background-color: #f74c55;
+}
+.color_css li:nth-of-type(3){
+  background-color: #2d5f3b;
+}
+.color_css li:nth-of-type(4){
+  background-color: #404040;
+}
+.color_css li:nth-of-type(5){
+  background-color: #fb636b;
+}
+.method {
+  background: linear-gradient(to right, #404040 50%, #2d5f3b 50%);
+}
+.method_list {
+  float: left;
+  width: 33%;
+  padding: 1.6em;
+  color: #ffffff;
+}
+.method_1 {
+  background-color: #404040;
+}
+.method_2 {
+  background-color: #f74c55;
+}
+.method_3 {
+  background-color: #2d5f3b;
+}
+.method_list h3 {
+  font-size: 1.2em;
+  line-height: 2.4em;
+}
+.method_list p{
+  font-size: 0.8em;
+  line-height: 1.6em;
+  text-align: justify;
+}
+.icon-plus {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+  float: right;
+  margin-top: 1.2em;
+}
+
+.icon-plus:hover,
+.icon-plus:active {
+  background-color: rgba(255, 30, 32, 0.8);
+}
