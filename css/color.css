@@ -73,6 +73,11 @@ body {
   font-size: 1.2em;
   margin-top: 2em;
 }
+.btn_albinos:hover {
+  background-color: rgba(255, 30, 32, 0.8);
+  border: none;
+  transition: background .3s ease;
+}
 article {
   width: 80%;
   margin: 0 auto;
@@ -87,6 +92,7 @@ article {
 .about p{
   font-size: 1em;
   line-height: 1.6em;
+  text-align: justify;
 }
 ul.color_css {
   margin-top: 80px;
@@ -111,6 +117,9 @@ ul.color_css {
 .color_css li:nth-of-type(5){
   background-color: #fb636b;
 }
+
+/*method*/
+
 .method {
   background: linear-gradient(to right, #404040 50%, #2d5f3b 50%);
 }
@@ -131,7 +140,7 @@ ul.color_css {
 }
 .method_list h3 {
   font-size: 1.2em;
-  line-height: 2.4em;
+  line-height: 2.6em;
 }
 .method_list p{
   font-size: 0.8em;
@@ -148,6 +157,31 @@ ul.color_css {
 .icon-plus:hover,
 .icon-plus:active {
   background-color: rgba(255, 30, 32, 0.8);
+  transition: background .3s ease;
+}
+
+.method_list h3::before{
+  background: url(../img/spritesheet.png) no-repeat;
+  display: inline-block;
+  content: " ";
+  margin-right: 0.8em;
+}
+.method_1 h3::before {
+  width: 28px;
+  height: 34px;
+  background-position:-5px -5px;
+}
+
+.method_2 h3::before {
+  width: 36px;
+  height: 36px;
+  background-position: -43px -5px;
+}
+
+.method_3 h3::before {
+  width: 39px;
+  height: 27px;
+  background-position: -89px -5px;
 }
 
 .example {
@@ -160,10 +194,15 @@ ul.color_css {
 .example h2{
   font-size: 42px;
 }
-.example .bold {
-  font-weight: 800;
+.example .bold:hover {
+  color: rgba(247, 76, 85, 1);
+  transition: color .3s ease;
 }
 .line{
   background: url("../img/line.png") repeat-x;
   height: 8px;
+}
+footer {
+  text-align: center;
+  padding: 1.6em;
 }
