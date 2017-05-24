@@ -237,3 +237,29 @@ footer {
     width: 90%;
   }
 }
+
+@media screen and (max-width: 860px) {
+  .masthead_inner,
+  article {
+    width: 100%;
+  }
+  .masthead_inner {
+   padding: 0 1em;
+  }
+  .method_list {
+    width: 100%;
+    display: block;
+  }
+  .header-article {
+    padding-left: 0.3em;
+  }
+  .about {
+    margin: 2em;
+  }
+  .example {
+    padding: 4em 3em;
+  }
+}
+@media screen and (max-width: 600px) {
+
+}
