@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,
+a:focus,
+a:hover {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+ul{
+  list-style: none;
+}
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+body {
+  width: 100%;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+}
+.masterhead{
+  background: #bb3a75 url("..img/masterhead_bg.png") no-repeat fixed center;
+}
+.masthead_inner {
+  width: 85%;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  font-size: 2.5em;
+}
+.nav-bg ul{
+  float: right;
+}
+.nav-bg li{
+  float:left;
+  margin-right: 15px;
+  line-height: 3.7em;
+  text-transform: uppercase;
+}
+.nav-bg li:last-child {
+  margin-right: 0;
+}
