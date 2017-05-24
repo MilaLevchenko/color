@@ -12,9 +12,6 @@ a:hover {
 ul{
   list-style: none;
 }
-ul{
-  list-style: none;
-}
 .clearfix::after {
   content: " ";
   clear: both;
@@ -101,7 +98,6 @@ body {
   font-size: 1.4em;
   line-height: 4;
   text-align: center;
-  font-weight: bold;
 }
 .nav-small.is-open .nav-small-list li:first-child {
   height: 3.6em;
@@ -129,7 +125,7 @@ body {
   z-index: 999;
   width: 27px;
   height: 27px;
-  margin-top: 2em;
+  margin-top: 1.7em;
   margin-right: 2em;
   background: transparent;
   border: none;
@@ -182,7 +178,7 @@ body {
   -webkit-transition: -webkit-transform .2s cubic-bezier(.73,1,.28,.08);
 }
 
-
+        /*header-article*/
 
 .header-article {
   padding: 132px 190px;
@@ -395,13 +391,11 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .about h2 {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .about p {
     font-size: .9em;
   }
-}
-@media screen and (max-width: 480px) {
   .header-article {
     padding-right: 0;
   }
