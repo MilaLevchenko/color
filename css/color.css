@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #2f2f2f;
+  color: #ffffff;
   text-decoration: none;
 }
 ul{
@@ -22,19 +22,23 @@ ul{
 }
 body {
   width: 100%;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans Regular", Arial, sans-serif;
   font-size: 16px;
 }
-.masterhead{
-  background: #bb3a75 url("..img/masterhead_bg.png") no-repeat fixed center;
+.masthead{
+  width: 100%;
+  background: #f74c55 url("../img/masthead_bg.png") no-repeat center;
+  background-size: cover;
+  color: #ffffff;
 }
 .masthead_inner {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 .logo {
   float: left;
   font-size: 2.5em;
+  font-family: 'Pacifico', cursive;
 }
 .nav-bg ul{
   float: right;
@@ -47,4 +51,29 @@ body {
 }
 .nav-bg li:last-child {
   margin-right: 0;
+}
+.header-article {
+  padding: 130px 190px;
+  float: right;
+}
+.header-article_h1 {
+  font-size: 2.5em;
+}
+.header-article_p {
+  font-size: 1em;
+  margin-top: 1em;
+}
+.btn_albinos {
+  width: 140px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+article {
+  width: 80%;
+  margin: 0 auto;
 }
